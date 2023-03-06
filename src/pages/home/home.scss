@@ -1,0 +1,28 @@
+.home{
+    display: flex;
+
+   .homeContainer{
+    flex: 6;
+
+    .widgets, .charts, .studentChart,.empChartt,.academicPieRadar{
+        display: flex;
+        padding: 20px;
+        gap:20px;
+    }
+        .charts{
+            padding: 5px 20px;
+        }
+        .studentChart{
+            padding: 5px 20px;
+        }
+
+        .empChartt{
+            padding: 5px 20px;
+        }
+        .academicPieRadar{
+            padding: 5px 20px;
+        }
+
+      
+   }
+}

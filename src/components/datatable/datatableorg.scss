@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    width: 100%;
+    
+        .datatableorg{
+            flex:6;
+
+            .datatable{
+                height: 400px;
+                padding: 20px;
+                padding-top: 10px;
+                margin-left: -35px;
+                width: 97%;
+                position: center;
+
+                .pieChart{
+                   width: 80%;
+                   padding-left: 75px;
+                   display: flex;
+                   gap:50px;
+                  }
+            }
+        }
+
+        .cellWithStatus{
+            padding: 5px;
+            border-radius: 5px;
+        
+            &.active{
+                background-color: rgba(0, 128, 0, 0.05);
+                color: green;
+            }
+            &.pending{
+                background-color: rgba(189, 189, 3, 0.103);
+                color: goldenrod;
+            }
+        }
+        .cellAction{
+            display: flex;
+            align-items: center;
+            gap:15px;
+    
+            .deleteBtn{
+                padding: 2px 5px;
+                border-radius: 5px;
+                color: darkblue;
+                border: 1px dotted rgba(0, 0, 139, 0.596);
+                cursor: pointer;
+            }
+            .updateBtn{
+                padding: 2px 5px;
+                border-radius: 5px;
+                color: crimson;
+                border: 1px dotted rgba(220, 20, 60, 0.6);
+                cursor: pointer;
+            }
+
+           
+    
+        }
+        .pdff{
+            margin-left: 200px;
+            margin-top: -130px;
+        }
+        .tableDisplay{
+            margin-top: 25px;
+            margin-left: 15px;
+        }
+        .boxSearch{
+            margin-left: 10px;
+            margin-top: -28px;
+        }
+   
+}

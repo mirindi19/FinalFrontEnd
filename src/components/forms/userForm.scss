@@ -1,0 +1,32 @@
+.userform{
+   padding: 10px;
+   margin-left: 10px;
+
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-top: 25px;
+    justify-content: space-around;
+
+    .formInput{
+        width:40%;
+
+        label{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        input{
+            width: 100%;
+            padding: 5px;
+            border: none;
+            border-bottom: 1px solid gray;
+           
+           
+        }
+    }
+   }

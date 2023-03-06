@@ -1,0 +1,15 @@
+.topAvatar{
+    width: 220px;
+    height: 75px;
+    transition: transform .2s;
+    object-fit: contain;
+    cursor: pointer;
+} 
+.contentRight{
+    flex: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+   
+}

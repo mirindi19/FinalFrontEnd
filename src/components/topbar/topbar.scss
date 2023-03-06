@@ -1,0 +1,17 @@
+.linkStyle{
+    color: black;
+    margin-right: 800px;
+    text-decoration:none;
+    // margin-left: -3px;
+}
+.linkStyle:active {
+    color: black;
+  }
+  .logo{
+    width: 100px;
+    height: 45px;
+    object-fit: contain;
+    transition: 2rem;
+    padding: 8px;
+    margin-left: -130px;
+  }

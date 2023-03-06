@@ -1,0 +1,19 @@
+.paperStyle {
+    width: 240px;
+    height: 45vh;
+    background-color: #ffff;
+    border-radius: 8px;
+    -webkit-box-shadow: 5px 5px 15px 5px #000000;
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+
+.topAvatarLogin {
+    // width: 60px;
+    // height: 60px;
+    // transition: transform .2s;
+    // object-fit: contain;
+
+    font-size: 18px;
+    color: black;
+}

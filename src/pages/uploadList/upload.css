@@ -1,0 +1,36 @@
+.hero-imageupload{
+    width: 100%;
+    min-height: 90.7vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../Assets/images/homepage_img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: grid;
+    align-items: center;
+    gap: 1.5em;
+
+}
+
+.hero-text h2{
+    font-size: 1.8rem;
+    color:burlywood;
+    text-transform: uppercase;
+    margin-left:70px;
+}
+.hero-text p{
+    font-size: 0.998rem;
+    color:white;
+    margin: 0.5rem 0 1.4rem;
+    margin-left:70px;
+
+}
+.box{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.button-upload{
+    margin-left: 70px;
+}
+
+
